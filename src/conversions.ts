@@ -24,10 +24,12 @@ const handleRequest = async ({ prev_chat_id, userInput }: handleRequestInf) => {
 export default function main() {
   let prev_chat_id: string | null = null;
 
+  console.log("\n😊 You:");
   process.stdin.addListener("data", async function (input) {
     const userInput = input.toString().trim();
-    console.log("\n 🤖 Machine answer:");
+    console.log("\n>>>> 🤖 Machine answer:");
     prev_chat_id = await handleRequest({ prev_chat_id, userInput });
-    console.log("⭐ ================================================ ⭐\n");
+    console.log("\n⭐ ================================================ ⭐\n");
+    console.log(">>>> 😊 You:");
   });
 }
