@@ -9,3 +9,4 @@ export const INVOKED_FUNCTION = parseRuntimeArgs().invoke_fn;
 export const VECTOR_DB_API_KEY = process.env.CHROMA_DB_API_KEY ?? "";
 export const VECTOR_DB_TENANT = process.env.CHROMA_DB_TENANT ?? "";
 export const VECTOR_DB_NAME = process.env.CHROMA_DB_NAME ?? "";
+export const DATA_TEST_DB_COLLECTION_NAME = "data-test";

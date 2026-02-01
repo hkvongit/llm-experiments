@@ -5,6 +5,7 @@ import conversations from "./src/conversions.ts";
 import functionCalling from "./src/function-calling.ts";
 import embeddings from "./src/embeddings/index.ts";
 import similar from "./src/embeddings/similar.ts";
+import chromaDbTest from "./src/embeddings/chromaDb.ts";
 
 console.log(
   "Running index.ts file by node, Make sure the node version is v25.5.0**"
@@ -31,6 +32,9 @@ switch (INVOKED_FUNCTION) {
     break;
   case "findEmbedSimilarity":
     similar();
+    break;
+  case "chromaDbTest":
+    chromaDbTest();
     break;
   default:
     break;

@@ -19,7 +19,7 @@
         "--experimental-strip-types",
       ],
       "args": [
-        "--invoke_fn=findEmbedSimilarity"
+        "--invoke_fn=chromaDbTest"
       ]
 
     }

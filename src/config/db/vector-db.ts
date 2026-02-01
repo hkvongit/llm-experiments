@@ -5,7 +5,7 @@ import {
   VECTOR_DB_TENANT,
 } from "../../constants.ts";
 
-export const dbClient = new CloudClient({
+export const vectorDbClient = new CloudClient({
   apiKey: VECTOR_DB_API_KEY,
   tenant: VECTOR_DB_TENANT,
   database: VECTOR_DB_NAME,
