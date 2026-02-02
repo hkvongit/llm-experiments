@@ -7,6 +7,9 @@ import embeddings from "./src/embeddings/index.ts";
 import similar from "./src/embeddings/similar.ts";
 import chromaDbTest from "./src/embeddings/chromaDb.ts";
 import embeddedRelevantInfo from "./src/embeddings/relevantInfo.ts";
+// Langchain imports
+import langChainModelFn from "./src/langchain/model.ts";
+import langChainPromptPlusOutParser from "./src/langchain/prompt-builder-with-parser.ts";
 
 const nodeRuntimeVersion = process.version;
 const requiredNodeVersion = "v25.5.0";
@@ -46,6 +49,12 @@ switch (INVOKED_FUNCTION) {
     break;
   case "embedded_relevantInfo":
     embeddedRelevantInfo();
+    break;
+  case "langChainModelFn":
+    langChainModelFn();
+    break;
+  case "langChainPromptPlusOutParser":
+    langChainPromptPlusOutParser();
     break;
   default:
     break;
