@@ -18,3 +18,7 @@ My failed attempt is as below
 - Setup for pg admin is detailed [here](https://github.com/pgvector/pgvector).
 - - Read all steps carefully
 
+## Langchain
+- To see the code for langchain learning switch to git branch `langchain-learning`
+
+
