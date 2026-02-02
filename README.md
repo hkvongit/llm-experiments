@@ -2,7 +2,7 @@
 ```bash
 v25.5.0
 ```
-This version has native typescript runtime.
+This version has native typescript runtime. So please ensure you use this node version.
 
 ---
 
