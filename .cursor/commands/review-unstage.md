@@ -1,0 +1,1 @@
+Your responsibility is to review what ever code are unstaged in the current working tree. Do not include the file and folders mentioned in the .gitignore.

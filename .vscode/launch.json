@@ -19,7 +19,7 @@
         "--experimental-strip-types",
       ],
       "args": [
-        "--invoke_fn=chromaDbTest"
+        "--invoke_fn=embedded_relevantInfo"
       ]
 
     }
